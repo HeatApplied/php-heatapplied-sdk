@@ -13,9 +13,10 @@
     ],
     "autoload": {
         "psr-4": {
-            "HeatApplied\\Model\\": "src/HeatApplied/Model",
-            "HeatApplied\\View\\": "src/HeatApplied/View",
-            "HeatApplied\\Controller\\": "src/HeatApplied/Controller"
+            "HeatApplied\\": "src/HeatApplied"
         }
+    },
+    "require": {
+        "heatapplied/php-util": ">=1.0.0"
     }
 }
